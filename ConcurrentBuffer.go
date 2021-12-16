@@ -62,7 +62,7 @@ func (b *Buffer) Read(worker int) (finished bool) {
 }
 
 func main() {
-	// 循环动态向 strList 切片中添加 SIZE_OF_DATA 个元素，并打印相关参数
+	
 	var Data []int
 	for i := 0; i < SIZE_OF_DATA; i++ {
 		Data = append(Data, i)
